@@ -1,0 +1,32 @@
+/* Reset and full-screen centering */
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000000; /* Background for outside game canvas */
+}
+
+/* Game container style */
+#game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 1000px;
+    background-color: #fff; /* Optional: game background color */
+}
+
+/* Phaser canvas styling */
+canvas {
+    display: block;
+}
+
+/* Fonts */
+@font-face {
+    font-family: Gameplay;
+    src: url('./Gameplay.ttf');
+}
