@@ -17,7 +17,9 @@ A simple yet fun brick breaker game built using HTML, CSS, and JavaScript. Break
 ## 📷 Screenshots  
 
 ![Main Menu](./assets/screenshots/main-menu.png)
+
 Ability to play a new game or load game from a JSON file
+
 ![Load Game](./assets/screenshots/load-save.png)
 
 ![Game 1](./assets/screenshots/game-1.png)
